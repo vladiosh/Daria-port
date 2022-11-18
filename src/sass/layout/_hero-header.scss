@@ -1,0 +1,47 @@
+.hero {
+  background-color: rgb(223, 197, 212);
+}
+
+.hero_container {
+  display: flex;
+  position: relative;
+  //   background-color: rgb(68, 62, 62);
+  background-image: url(/src/images/Daria-header.jpg);
+  height: 800px;
+}
+
+.menu {
+  display: flex;
+  position: absolute;
+  top: 75px;
+  left: 65px;
+}
+
+.navigation__link {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  margin-bottom: 15px;
+}
+
+.name {
+  display: flex;
+  right: 50px;
+  position: absolute;
+  top: 320px;
+}
+
+.hero_name {
+  color: #000;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.14;
+}
+
+.link {
+  display: flex;
+  position: absolute;
+  bottom: 30px;
+  left: 65px;
+}

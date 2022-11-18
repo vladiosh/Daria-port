@@ -4,7 +4,7 @@
   "description": "",
   "homepage": "https://vladiosh.github.io/Daria-port/",
   "scripts": {
-    "start": "parcel src/*.html",
+    "start": "parcel src/*.html -p 7777",
     "build": "parcel build src/*.html --public-url /Daria-portDaria-port/"
   },
   "repository": {
